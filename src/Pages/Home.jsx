@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faApple } from "@fortawesome/free-brands-svg-icons";
-import ProductDetails from './ProductDetails'; // Ensure this is the correct path to your Products component
+import ProductDetails from './ProductDetails'; 
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
         <img 
           src="/img/hero.jpg" 
           className="card-img" 
-          alt="iPhone 14 series background" // More descriptive alt text
+          alt="iPhone 14 series background" 
           height="550px" 
         />
         <div className="card-img-overlay d-flex flex-column justify-content-around">
